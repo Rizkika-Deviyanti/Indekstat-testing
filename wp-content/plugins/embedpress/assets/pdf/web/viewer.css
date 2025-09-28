@@ -1381,9 +1381,9 @@
       var(--outline-around-width)
   );
   --editorFreeText-editing-cursor:text;
-  --editorInk-editing-cursor:url(/wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorInk.svg) 0 16, pointer;
-  --editorHighlight-editing-cursor:url(/wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorTextHighlight.svg) 24 24, text;
-  --editorFreeHighlight-editing-cursor:url(/wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorFreeHighlight.svg) 1 18, pointer;
+  --editorInk-editing-cursor:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorInk.svg) 0 16, pointer;
+  --editorHighlight-editing-cursor:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorTextHighlight.svg) 24 24, text;
+  --editorFreeHighlight-editing-cursor:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorFreeHighlight.svg) 1 18, pointer;
 }
 .visuallyHidden{
   position:absolute;
@@ -1413,7 +1413,7 @@
 
 @media (min-resolution: 1.1dppx){
   :root{
-    --editorFreeText-editing-cursor:url(/wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorFreeText.svg) 0 16, text;
+    --editorFreeText-editing-cursor:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/cursor-editorFreeText.svg) 0 16, text;
   }
 }
 
@@ -1515,9 +1515,9 @@
 
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar{
-    --editor-toolbar-delete-image:url(/wp-content/plugins/embedpress/assets/pdf/web/images/editor-toolbar-delete.svg);
+    --editor-toolbar-delete-image:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/editor-toolbar-delete.svg);
     --editor-toolbar-bg-color:#f0f0f4;
-    --editor-toolbar-highlight-image:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorHighlight.svg);
+    --editor-toolbar-highlight-image:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorHighlight.svg);
     --editor-toolbar-fg-color:#2e2e56;
     --editor-toolbar-border-color:#8f8f9d;
     --editor-toolbar-hover-border-color:var(--editor-toolbar-border-color);
@@ -1711,8 +1711,8 @@
 
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText{
-        --alt-text-add-image:url(/wp-content/plugins/embedpress/assets/pdf/web/images/altText_add.svg);
-        --alt-text-done-image:url(/wp-content/plugins/embedpress/assets/pdf/web/images/altText_done.svg);
+        --alt-text-add-image:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/altText_add.svg);
+        --alt-text-done-image:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/altText_done.svg);
 
         display:flex;
         align-items:center;
@@ -2339,7 +2339,7 @@
       }
 
 .annotationEditorLayer .highlightEditor .editToolbar{
-      --editor-toolbar-colorpicker-arrow-image:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-menuArrow.svg);
+      --editor-toolbar-colorpicker-arrow-image:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-menuArrow.svg);
 
       transform-origin:center !important;
     }
@@ -2738,7 +2738,7 @@
   content:"";
   width:100%;
   height:100%;
-  background:url("/wp-content/plugins/embedpress/assets/pdf/web/images/loading-icon.gif") center no-repeat;
+  background:url("/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/loading-icon.gif") center no-repeat;
   display:none;
   transition-property:display;
   transition-delay:var(--loading-icon-delay);
@@ -2826,48 +2826,48 @@
   --dialog-button-bg-color:rgb(12 12 13 / 0.1);
   --dialog-button-hover-bg-color:rgb(12 12 13 / 0.3);
 
-  --loading-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/loading.svg);
-  --treeitem-expanded-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/treeitem-expanded.svg);
-  --treeitem-collapsed-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/treeitem-collapsed.svg);
-  --toolbarButton-editorFreeText-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorFreeText.svg);
-  --toolbarButton-editorHighlight-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorHighlight.svg);
-  --toolbarButton-editorInk-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorInk.svg);
-  --toolbarButton-editorStamp-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorStamp.svg);
-  --toolbarButton-menuArrow-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-menuArrow.svg);
-  --toolbarButton-sidebarToggle-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-sidebarToggle.svg);
-  --toolbarButton-secondaryToolbarToggle-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-secondaryToolbarToggle.svg);
-  --toolbarButton-pageUp-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-pageUp.svg);
-  --toolbarButton-pageDown-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-pageDown.svg);
-  --toolbarButton-zoomOut-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomOut.svg);
-  --toolbarButton-zoomIn-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomIn.svg);
-  --toolbarButton-presentationMode-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-presentationMode.svg);
-  --toolbarButton-print-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-print.svg);
-  --toolbarButton-openFile-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-openFile.svg);
-  --toolbarButton-download-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-download.svg);
-  --toolbarButton-bookmark-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-bookmark.svg);
-  --toolbarButton-viewThumbnail-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewThumbnail.svg);
-  --toolbarButton-viewOutline-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewOutline.svg);
-  --toolbarButton-viewAttachments-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewAttachments.svg);
-  --toolbarButton-viewLayers-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewLayers.svg);
-  --toolbarButton-currentOutlineItem-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-currentOutlineItem.svg);
-  --toolbarButton-search-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-search.svg);
-  --findbarButton-previous-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/findbarButton-previous.svg);
-  --findbarButton-next-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/findbarButton-next.svg);
-  --secondaryToolbarButton-firstPage-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-firstPage.svg);
-  --secondaryToolbarButton-lastPage-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-lastPage.svg);
-  --secondaryToolbarButton-rotateCcw-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-rotateCcw.svg);
-  --secondaryToolbarButton-rotateCw-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-rotateCw.svg);
-  --secondaryToolbarButton-selectTool-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-selectTool.svg);
-  --secondaryToolbarButton-handTool-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-handTool.svg);
-  --secondaryToolbarButton-scrollPage-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollPage.svg);
-  --secondaryToolbarButton-scrollVertical-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollVertical.svg);
-  --secondaryToolbarButton-scrollHorizontal-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollHorizontal.svg);
-  --secondaryToolbarButton-scrollWrapped-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollWrapped.svg);
-  --secondaryToolbarButton-spreadNone-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadNone.svg);
-  --secondaryToolbarButton-spreadOdd-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadOdd.svg);
-  --secondaryToolbarButton-spreadEven-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadEven.svg);
-  --secondaryToolbarButton-documentProperties-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-documentProperties.svg);
-  --editorParams-stampAddImage-icon:url(/wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomIn.svg);
+  --loading-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/loading.svg);
+  --treeitem-expanded-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/treeitem-expanded.svg);
+  --treeitem-collapsed-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/treeitem-collapsed.svg);
+  --toolbarButton-editorFreeText-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorFreeText.svg);
+  --toolbarButton-editorHighlight-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorHighlight.svg);
+  --toolbarButton-editorInk-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorInk.svg);
+  --toolbarButton-editorStamp-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-editorStamp.svg);
+  --toolbarButton-menuArrow-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-menuArrow.svg);
+  --toolbarButton-sidebarToggle-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-sidebarToggle.svg);
+  --toolbarButton-secondaryToolbarToggle-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-secondaryToolbarToggle.svg);
+  --toolbarButton-pageUp-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-pageUp.svg);
+  --toolbarButton-pageDown-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-pageDown.svg);
+  --toolbarButton-zoomOut-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomOut.svg);
+  --toolbarButton-zoomIn-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomIn.svg);
+  --toolbarButton-presentationMode-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-presentationMode.svg);
+  --toolbarButton-print-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-print.svg);
+  --toolbarButton-openFile-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-openFile.svg);
+  --toolbarButton-download-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-download.svg);
+  --toolbarButton-bookmark-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-bookmark.svg);
+  --toolbarButton-viewThumbnail-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewThumbnail.svg);
+  --toolbarButton-viewOutline-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewOutline.svg);
+  --toolbarButton-viewAttachments-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewAttachments.svg);
+  --toolbarButton-viewLayers-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-viewLayers.svg);
+  --toolbarButton-currentOutlineItem-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-currentOutlineItem.svg);
+  --toolbarButton-search-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-search.svg);
+  --findbarButton-previous-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/findbarButton-previous.svg);
+  --findbarButton-next-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/findbarButton-next.svg);
+  --secondaryToolbarButton-firstPage-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-firstPage.svg);
+  --secondaryToolbarButton-lastPage-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-lastPage.svg);
+  --secondaryToolbarButton-rotateCcw-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-rotateCcw.svg);
+  --secondaryToolbarButton-rotateCw-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-rotateCw.svg);
+  --secondaryToolbarButton-selectTool-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-selectTool.svg);
+  --secondaryToolbarButton-handTool-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-handTool.svg);
+  --secondaryToolbarButton-scrollPage-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollPage.svg);
+  --secondaryToolbarButton-scrollVertical-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollVertical.svg);
+  --secondaryToolbarButton-scrollHorizontal-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollHorizontal.svg);
+  --secondaryToolbarButton-scrollWrapped-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-scrollWrapped.svg);
+  --secondaryToolbarButton-spreadNone-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadNone.svg);
+  --secondaryToolbarButton-spreadOdd-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadOdd.svg);
+  --secondaryToolbarButton-spreadEven-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-spreadEven.svg);
+  --secondaryToolbarButton-documentProperties-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/secondaryToolbarButton-documentProperties.svg);
+  --editorParams-stampAddImage-icon:url(/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf/web/images/toolbarButton-zoomIn.svg);
 }
 
 [dir="rtl"]:root{

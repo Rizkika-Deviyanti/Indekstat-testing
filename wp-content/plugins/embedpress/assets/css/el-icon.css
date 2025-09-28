@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'el-icon';
-    src:  url('/wp-content/plugins/embedpress/assets/fonts/el-icon.eot?u9p5gz');
-    src:  url('/wp-content/plugins/embedpress/assets/fonts/el-icon.eot?u9p5gz#iefix') format('embedded-opentype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/el-icon.ttf?u9p5gz') format('truetype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/el-icon.woff?u9p5gz') format('woff'),
-    url('/wp-content/plugins/embedpress/assets/fonts/el-icon.svg?u9p5gz#el-icon') format('svg');
+    src:  url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/el-icon.eot?u9p5gz');
+    src:  url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/el-icon.eot?u9p5gz#iefix') format('embedded-opentype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/el-icon.ttf?u9p5gz') format('truetype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/el-icon.woff?u9p5gz') format('woff'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/el-icon.svg?u9p5gz#el-icon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;

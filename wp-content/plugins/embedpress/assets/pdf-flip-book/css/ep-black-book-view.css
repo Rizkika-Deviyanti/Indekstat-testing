@@ -139,7 +139,7 @@
   width: 100%;
   height: 100%;
   background-size: contain;
-  background-image: url('/wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
+  background-image: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
 }
 
 .flip-book .page-loading {
@@ -162,7 +162,7 @@
   width: 100%;
   height: 100%;
   background-size: contain;
-  background-image: url('/wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
+  background-image: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
 }
 
 .flip-book .loading-progress .caption {
@@ -657,7 +657,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   background-size: contain;
-  background-image: url('/wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
+  background-image: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/pdf-flip-book/images/light-loader.gif');
 }
 
 .ctrl .thumbnails .item {

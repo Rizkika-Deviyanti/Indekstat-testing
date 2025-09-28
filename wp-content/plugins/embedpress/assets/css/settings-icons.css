@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/wp-content/plugins/embedpress/assets/fonts/icomoon.eot?6wwmrx');
-  src:  url('/wp-content/plugins/embedpress/assets/fonts/icomoon.eot?6wwmrx#iefix') format('embedded-opentype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/icomoon.ttf?6wwmrx') format('truetype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/icomoon.woff?6wwmrx') format('woff'),
-    url('/wp-content/plugins/embedpress/assets/fonts/icomoon.svg?6wwmrx#icomoon') format('svg');
+  src:  url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/icomoon.eot?6wwmrx');
+  src:  url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/icomoon.eot?6wwmrx#iefix') format('embedded-opentype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/icomoon.ttf?6wwmrx') format('truetype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/icomoon.woff?6wwmrx') format('woff'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/icomoon.svg?6wwmrx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

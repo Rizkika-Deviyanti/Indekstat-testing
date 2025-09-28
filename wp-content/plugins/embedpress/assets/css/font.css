@@ -8,11 +8,11 @@
 
 @font-face {
     font-family: 'EmbedPress';
-    src: url('/wp-content/plugins/embedpress/assets/fonts/embedpress.eot?80956116');
-    src: url('/wp-content/plugins/embedpress/assets/fonts/embedpress.eot?80956116#iefix') format('embedded-opentype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/embedpress.woff?80956116') format('woff'),
-    url('/wp-content/plugins/embedpress/assets/fonts/embedpress.ttf?80956116') format('truetype'),
-    url('/wp-content/plugins/embedpress/assets/fonts/embedpress.svg?80956116#embedpress') format('svg');
+    src: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/embedpress.eot?80956116');
+    src: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/embedpress.eot?80956116#iefix') format('embedded-opentype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/embedpress.woff?80956116') format('woff'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/embedpress.ttf?80956116') format('truetype'),
+    url('/Indekstat-testing//wp-content/plugins/embedpress/assets/fonts/embedpress.svg?80956116#embedpress') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'embedpress';
-    src: url('/wp-content/plugins/embedpress/assets/font/embedpress.svg?80956116#embedpress') format('svg');
+    src: url('/Indekstat-testing//wp-content/plugins/embedpress/assets/font/embedpress.svg?80956116#embedpress') format('svg');
   }
 }
 */
